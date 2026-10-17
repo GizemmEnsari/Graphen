@@ -1,0 +1,460 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		054D9FE429783D9E6757D1F5 /* CodeFormatting.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A83AD360D8D474B4D06BD0 /* CodeFormatting.swift */; };
+		093F146B570A784C9E03D636 /* AxisScale.swift in Sources */ = {isa = PBXBuildFile; fileRef = F040CC76273FD1AB3D218354 /* AxisScale.swift */; };
+		09B243A47FC7D4154D33CC24 /* ChartType.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66BD28D03CED94363601A49 /* ChartType.swift */; };
+		16FF4484B6020C1C81A2D1BB /* Series.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15D6D672F7C8C9A0B84CFA6 /* Series.swift */; };
+		173ACE01AB89C588EEABD420 /* ExportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DD59948374EC4367519FE10 /* ExportView.swift */; };
+		28EEB16068AA0190800D41E3 /* Graph+Computed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4DEC97D1843BC4B910D09C /* Graph+Computed.swift */; };
+		38446FE6A9022EE1C5E18DFA /* Graph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27068E0B4DBE3C4ADF247B44 /* Graph.swift */; };
+		3CD4666930C10BA3093C1720 /* MarkerStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 503CDB1FE0936BCD1F2A2D95 /* MarkerStyle.swift */; };
+		487D745973F62C9523144BE7 /* EquationParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3419D768E02C66A515066CE /* EquationParser.swift */; };
+		4D132AD27AD32B3A3787B579 /* DataPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43BB472A6C14C8A696DE450D /* DataPoint.swift */; };
+		549576F747862281580E37BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D92C7213A9E6CE9F1861C079 /* Assets.xcassets */; };
+		5E3001241C9B0E9BE3F288B0 /* SwiftUIExporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5BA3E43BAF8340E546C9DDD /* SwiftUIExporter.swift */; };
+		60E3FBEA4364EAB9D301AEBD /* DataInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC726DBE398B42595CB09219 /* DataInputView.swift */; };
+		7884299B63ACC1F40EF24500 /* LegendPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = B840302C12D182E49329F985 /* LegendPosition.swift */; };
+		7B328757371EF04ABAD69F23 /* GraphEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A998AE1E0938F571DD51FB /* GraphEditorView.swift */; };
+		86C8BBC8E9567A38DC7F21EA /* ColorValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E4396BC9689CF7FC16C0BC1 /* ColorValue.swift */; };
+		88EC190580EE0F92FE3A7ED8 /* GraphChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30AFFDA6F72706E66523468C /* GraphChartView.swift */; };
+		8BC6C24666B201B3B4F0B4DC /* GraphStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC71AFBE1421783320CC2CA8 /* GraphStore.swift */; };
+		9353D3E971F804FA2C91BC94 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE822D85FA87C63C3A580D0 /* ContentView.swift */; };
+		938DB04BDCE7D16BF1D9F5AD /* AxisConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654FBD838FEA263BA47D3A53 /* AxisConfig.swift */; };
+		95EA4959B0A78A26FD0ADD89 /* GraphStudioApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34925FE2540F84FC78E25D6D /* GraphStudioApp.swift */; };
+		B4A02084988E4E879DC4592F /* ImportSheets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938252CAD047B6FCF05FB98A /* ImportSheets.swift */; };
+		B83102645DBEEBB27CD74DEB /* GraphListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF60EC50234C9A90D0C47B8 /* GraphListView.swift */; };
+		C6ABAB7EAC981523E0258063 /* Graph+Samples.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D59E9B1F4C6294DDC040ED /* Graph+Samples.swift */; };
+		CF74DED99D834770F09FD78F /* LineStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4173A5AD41DE7D3151EAF73 /* LineStyle.swift */; };
+		CFA3732C326AC9E0F70FFDCF /* CSVParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02CF011FB21E795056B0A042 /* CSVParser.swift */; };
+		D77D729714F366BC5CD1995C /* GraphStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F37BD7CE041BE38A8B95E08 /* GraphStyle.swift */; };
+		E19C95BC45E32BD0A35F7A47 /* StyleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6455666ED8432AC117560C2B /* StyleView.swift */; };
+		E64708F8D0A227283ADDFD12 /* CodeExporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B377B1D899A70B0988F93DE0 /* CodeExporter.swift */; };
+		ED62E01A2F8A27D525737BD7 /* HTMLChartJSExporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5205FB85C273D448F3F92A09 /* HTMLChartJSExporter.swift */; };
+		F34F4B1FFBA465E7143EF08C /* PythonMatplotlibExporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1414431EDC7AAB20B4474EA /* PythonMatplotlibExporter.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		02CF011FB21E795056B0A042 /* CSVParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSVParser.swift; sourceTree = "<group>"; };
+		0E4396BC9689CF7FC16C0BC1 /* ColorValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorValue.swift; sourceTree = "<group>"; };
+		27068E0B4DBE3C4ADF247B44 /* Graph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Graph.swift; sourceTree = "<group>"; };
+		2BF60EC50234C9A90D0C47B8 /* GraphListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphListView.swift; sourceTree = "<group>"; };
+		30AFFDA6F72706E66523468C /* GraphChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphChartView.swift; sourceTree = "<group>"; };
+		34925FE2540F84FC78E25D6D /* GraphStudioApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphStudioApp.swift; sourceTree = "<group>"; };
+		43BB472A6C14C8A696DE450D /* DataPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataPoint.swift; sourceTree = "<group>"; };
+		503CDB1FE0936BCD1F2A2D95 /* MarkerStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkerStyle.swift; sourceTree = "<group>"; };
+		5205FB85C273D448F3F92A09 /* HTMLChartJSExporter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTMLChartJSExporter.swift; sourceTree = "<group>"; };
+		5F37BD7CE041BE38A8B95E08 /* GraphStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphStyle.swift; sourceTree = "<group>"; };
+		6455666ED8432AC117560C2B /* StyleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyleView.swift; sourceTree = "<group>"; };
+		654FBD838FEA263BA47D3A53 /* AxisConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AxisConfig.swift; sourceTree = "<group>"; };
+		6DD59948374EC4367519FE10 /* ExportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExportView.swift; sourceTree = "<group>"; };
+		6EE822D85FA87C63C3A580D0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8C4DEC97D1843BC4B910D09C /* Graph+Computed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Graph+Computed.swift"; sourceTree = "<group>"; };
+		938252CAD047B6FCF05FB98A /* ImportSheets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImportSheets.swift; sourceTree = "<group>"; };
+		A1A83AD360D8D474B4D06BD0 /* CodeFormatting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeFormatting.swift; sourceTree = "<group>"; };
+		A5BA3E43BAF8340E546C9DDD /* SwiftUIExporter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIExporter.swift; sourceTree = "<group>"; };
+		B377B1D899A70B0988F93DE0 /* CodeExporter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeExporter.swift; sourceTree = "<group>"; };
+		B840302C12D182E49329F985 /* LegendPosition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegendPosition.swift; sourceTree = "<group>"; };
+		BC71AFBE1421783320CC2CA8 /* GraphStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphStore.swift; sourceTree = "<group>"; };
+		BC726DBE398B42595CB09219 /* DataInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataInputView.swift; sourceTree = "<group>"; };
+		C3419D768E02C66A515066CE /* EquationParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquationParser.swift; sourceTree = "<group>"; };
+		C4173A5AD41DE7D3151EAF73 /* LineStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineStyle.swift; sourceTree = "<group>"; };
+		C7A998AE1E0938F571DD51FB /* GraphEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphEditorView.swift; sourceTree = "<group>"; };
+		D92C7213A9E6CE9F1861C079 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E1414431EDC7AAB20B4474EA /* PythonMatplotlibExporter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PythonMatplotlibExporter.swift; sourceTree = "<group>"; };
+		E8512CDB582258FECB339675 /* GraphStudio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GraphStudio.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F040CC76273FD1AB3D218354 /* AxisScale.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AxisScale.swift; sourceTree = "<group>"; };
+		F15D6D672F7C8C9A0B84CFA6 /* Series.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Series.swift; sourceTree = "<group>"; };
+		F4D59E9B1F4C6294DDC040ED /* Graph+Samples.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Graph+Samples.swift"; sourceTree = "<group>"; };
+		F66BD28D03CED94363601A49 /* ChartType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartType.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		19182F54A2DE2544310D8401 /* GraphStudio */ = {
+			isa = PBXGroup;
+			children = (
+				D92C7213A9E6CE9F1861C079 /* Assets.xcassets */,
+				6EE822D85FA87C63C3A580D0 /* ContentView.swift */,
+				34925FE2540F84FC78E25D6D /* GraphStudioApp.swift */,
+				9CF3EB00F23A11E3BA90CD6C /* Exporters */,
+				8A9369331C01525E5B7DB458 /* Models */,
+				7073F64E30542817037151C4 /* Services */,
+				D3F6105D1C0A3F14A05A38DF /* Views */,
+			);
+			path = GraphStudio;
+			sourceTree = "<group>";
+		};
+		589A2213DC2B215CD44285D8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E8512CDB582258FECB339675 /* GraphStudio.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7073F64E30542817037151C4 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				02CF011FB21E795056B0A042 /* CSVParser.swift */,
+				C3419D768E02C66A515066CE /* EquationParser.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		7D42B5C393E8E1BEDC7E8068 = {
+			isa = PBXGroup;
+			children = (
+				19182F54A2DE2544310D8401 /* GraphStudio */,
+				589A2213DC2B215CD44285D8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8A9369331C01525E5B7DB458 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				654FBD838FEA263BA47D3A53 /* AxisConfig.swift */,
+				F040CC76273FD1AB3D218354 /* AxisScale.swift */,
+				F66BD28D03CED94363601A49 /* ChartType.swift */,
+				0E4396BC9689CF7FC16C0BC1 /* ColorValue.swift */,
+				43BB472A6C14C8A696DE450D /* DataPoint.swift */,
+				27068E0B4DBE3C4ADF247B44 /* Graph.swift */,
+				8C4DEC97D1843BC4B910D09C /* Graph+Computed.swift */,
+				F4D59E9B1F4C6294DDC040ED /* Graph+Samples.swift */,
+				5F37BD7CE041BE38A8B95E08 /* GraphStyle.swift */,
+				B840302C12D182E49329F985 /* LegendPosition.swift */,
+				C4173A5AD41DE7D3151EAF73 /* LineStyle.swift */,
+				503CDB1FE0936BCD1F2A2D95 /* MarkerStyle.swift */,
+				F15D6D672F7C8C9A0B84CFA6 /* Series.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9CF3EB00F23A11E3BA90CD6C /* Exporters */ = {
+			isa = PBXGroup;
+			children = (
+				B377B1D899A70B0988F93DE0 /* CodeExporter.swift */,
+				A1A83AD360D8D474B4D06BD0 /* CodeFormatting.swift */,
+				5205FB85C273D448F3F92A09 /* HTMLChartJSExporter.swift */,
+				E1414431EDC7AAB20B4474EA /* PythonMatplotlibExporter.swift */,
+				A5BA3E43BAF8340E546C9DDD /* SwiftUIExporter.swift */,
+			);
+			path = Exporters;
+			sourceTree = "<group>";
+		};
+		D3F6105D1C0A3F14A05A38DF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BC726DBE398B42595CB09219 /* DataInputView.swift */,
+				6DD59948374EC4367519FE10 /* ExportView.swift */,
+				30AFFDA6F72706E66523468C /* GraphChartView.swift */,
+				C7A998AE1E0938F571DD51FB /* GraphEditorView.swift */,
+				2BF60EC50234C9A90D0C47B8 /* GraphListView.swift */,
+				BC71AFBE1421783320CC2CA8 /* GraphStore.swift */,
+				938252CAD047B6FCF05FB98A /* ImportSheets.swift */,
+				6455666ED8432AC117560C2B /* StyleView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F4AA62B29F7C2510A76F7A88 /* GraphStudio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB90554CBDED6F06B98B412B /* Build configuration list for PBXNativeTarget "GraphStudio" */;
+			buildPhases = (
+				D80BABBFC5E92364BF0F0423 /* Sources */,
+				81CC4C8C71D9F50ADB96740D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GraphStudio;
+			packageProductDependencies = (
+			);
+			productName = GraphStudio;
+			productReference = E8512CDB582258FECB339675 /* GraphStudio.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		043A5458D793440F3D842214 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					F4AA62B29F7C2510A76F7A88 = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 9F61194294198A79C4A3E749 /* Build configuration list for PBXProject "GraphStudio" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 7D42B5C393E8E1BEDC7E8068;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 589A2213DC2B215CD44285D8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F4AA62B29F7C2510A76F7A88 /* GraphStudio */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		81CC4C8C71D9F50ADB96740D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				549576F747862281580E37BB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D80BABBFC5E92364BF0F0423 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				938DB04BDCE7D16BF1D9F5AD /* AxisConfig.swift in Sources */,
+				093F146B570A784C9E03D636 /* AxisScale.swift in Sources */,
+				CFA3732C326AC9E0F70FFDCF /* CSVParser.swift in Sources */,
+				09B243A47FC7D4154D33CC24 /* ChartType.swift in Sources */,
+				E64708F8D0A227283ADDFD12 /* CodeExporter.swift in Sources */,
+				054D9FE429783D9E6757D1F5 /* CodeFormatting.swift in Sources */,
+				86C8BBC8E9567A38DC7F21EA /* ColorValue.swift in Sources */,
+				9353D3E971F804FA2C91BC94 /* ContentView.swift in Sources */,
+				60E3FBEA4364EAB9D301AEBD /* DataInputView.swift in Sources */,
+				4D132AD27AD32B3A3787B579 /* DataPoint.swift in Sources */,
+				487D745973F62C9523144BE7 /* EquationParser.swift in Sources */,
+				173ACE01AB89C588EEABD420 /* ExportView.swift in Sources */,
+				28EEB16068AA0190800D41E3 /* Graph+Computed.swift in Sources */,
+				C6ABAB7EAC981523E0258063 /* Graph+Samples.swift in Sources */,
+				38446FE6A9022EE1C5E18DFA /* Graph.swift in Sources */,
+				88EC190580EE0F92FE3A7ED8 /* GraphChartView.swift in Sources */,
+				7B328757371EF04ABAD69F23 /* GraphEditorView.swift in Sources */,
+				B83102645DBEEBB27CD74DEB /* GraphListView.swift in Sources */,
+				8BC6C24666B201B3B4F0B4DC /* GraphStore.swift in Sources */,
+				95EA4959B0A78A26FD0ADD89 /* GraphStudioApp.swift in Sources */,
+				D77D729714F366BC5CD1995C /* GraphStyle.swift in Sources */,
+				ED62E01A2F8A27D525737BD7 /* HTMLChartJSExporter.swift in Sources */,
+				B4A02084988E4E879DC4592F /* ImportSheets.swift in Sources */,
+				7884299B63ACC1F40EF24500 /* LegendPosition.swift in Sources */,
+				CF74DED99D834770F09FD78F /* LineStyle.swift in Sources */,
+				3CD4666930C10BA3093C1720 /* MarkerStyle.swift in Sources */,
+				F34F4B1FFBA465E7143EF08C /* PythonMatplotlibExporter.swift in Sources */,
+				16FF4484B6020C1C81A2D1BB /* Series.swift in Sources */,
+				E19C95BC45E32BD0A35F7A47 /* StyleView.swift in Sources */,
+				5E3001241C9B0E9BE3F288B0 /* SwiftUIExporter.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0C7B1F45C6D2A6C0587986EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		163CEB1F8C9578461E6CC2C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = 5788F63HK2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.graphstudio;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		5B1BC20915159CE5B0456CF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = 5788F63HK2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.graphstudio;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		669AECD90AA555A35E6A2E21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9F61194294198A79C4A3E749 /* Build configuration list for PBXProject "GraphStudio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C7B1F45C6D2A6C0587986EC /* Debug */,
+				669AECD90AA555A35E6A2E21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		EB90554CBDED6F06B98B412B /* Build configuration list for PBXNativeTarget "GraphStudio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				163CEB1F8C9578461E6CC2C7 /* Debug */,
+				5B1BC20915159CE5B0456CF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 043A5458D793440F3D842214 /* Project object */;
+}
